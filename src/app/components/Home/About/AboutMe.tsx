@@ -25,7 +25,7 @@ const AboutMe = () => {
         <Image 
           data-aos="zoom-in" 
           data-aos-anchor-placement="top-center" 
-          src="/Images/comp2.jpg" 
+          src="/images/comp2.jpg" 
           alt="About img" 
           width={400} 
           height={400} 
