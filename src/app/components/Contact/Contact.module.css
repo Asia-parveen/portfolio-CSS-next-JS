@@ -1,0 +1,90 @@
+/* contect page css code here */
+/* Contact.module.css */
+.container {
+    padding-top: 50px;
+   box-sizing: border-box;
+   
+  }
+  
+  .header {
+    padding-top: 90px;
+  }
+  
+  .headerTitle {
+    text-align: center;
+    color: white;
+    /* margin-left: 43%; */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'serif';
+  }
+  
+  .headerSubtitle {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    /* margin-left: 41%; */
+    font-family: 'serif';
+    letter-spacing: 0.3em;
+    font-size: 15px;
+   
+    
+  }
+  
+  .contactTitle {
+    color: #facc15; /* yellow color */
+    
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .formWrapper {
+    padding-bottom: 90px;
+  }
+  /* contectForm css here */
+  /* ContactForm.module.css */
+.formContainer {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .errorMessage {
+    color: #f87171; /* red */
+  }
+  
+  .successMessage {
+    color: #facc15; /* yellow */
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    display: block;
+    color: #af3cff; /* purple color */
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .submitButton {
+    background-color: #af3cff; /* purple color */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  

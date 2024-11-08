@@ -1,0 +1,38 @@
+/* Healper css code hare */
+/* Heading.module.css */
+
+.headingContainer {
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .headingSub {
+    font-weight: 600;
+    font-size: 22px;
+    color: #facc15; /* Tailwind's yellow-500 equivalent */
+  }
+  
+  @media (min-width: 768px) {
+    .headingSub {
+      font-size: 28px;
+    }
+  }
+  
+  .headingPrimary {
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff; /* Tailwind's white equivalent */
+  }
+  
+  @media (min-width: 640px) {
+    .headingPrimary {
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .headingPrimary {
+      font-size: 35px;
+    }
+  }
+  

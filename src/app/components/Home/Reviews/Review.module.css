@@ -1,0 +1,92 @@
+/* Review section code hrer */
+/* review.tsx css code */
+/* Review.module.css */
+
+/* Container for Review component */
+.reviewContainer {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Heading container styling */
+  .headingContainer {
+    padding-top: 5rem;
+    margin-bottom: 4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* clientReview css code   */
+/* ClientReview.module.css */
+
+/* Main container for the client review */
+.clientReviewContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Image styling for the client photo */
+  .clientImage {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+  }
+  
+  /* Star rating styling */
+  .starRating {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Client name styling */
+  .clientName {
+    font-size: 25px;
+    color: white;
+    margin-top: 1rem;
+  }
+  
+  /* Client role styling */
+  .clientRole {
+    font-size: 18px;
+    color: white;
+    opacity: 0.75;
+    margin-top: 0.5rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  /* Client review text */
+  .clientReviewText {
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+  }
+/* reviewSlide css code   */
+/* ReviewSlider.module.css */
+
+/* Wrapper for the carousel container */
+.carouselWrapper {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Carousel item styling */
+  .carouselItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Carousel specific styles */
+  .carouselWrapper .react-multi-carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+  

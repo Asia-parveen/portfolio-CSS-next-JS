@@ -1,0 +1,88 @@
+/* About section css code here */
+
+/* AboutInfoBox component css */
+/* AboutInfoBox.module.css */
+
+.aboutInfoBoxContainer {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  @media (min-width: 640px) {
+    .aboutInfoBoxContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  
+  .infoBoxItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Equivalent to mb-4 */
+  }
+  
+  @media (min-width: 640px) {
+    .infoBoxItem {
+      margin-bottom: 0; /* Reset for larger screens */
+    }
+  }
+  
+  .infoBoxIcon {
+    width: 2rem;
+    height: 2rem;
+    color: #e487ff;
+  }
+  
+  .infoBoxText {
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 0.75rem; /* Spacing for 'space-x-3' */
+  }
+/* AboutMe component css code here   */
+
+/* AboutMe.module.css */
+
+.aboutMeContainer {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .headingContainer {
+    font-size: 27px;
+    font-weight: 600;
+    color: #facc15; /* Tailwind's yellow-400 equivalent */
+    margin-bottom: 1.4rem;
+  }
+  
+  .contentGrid {
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .contentGrid {
+      margin-top: 3rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .contentGrid {
+      grid-template-columns: 1fr 1fr; /* Equivalent to xl:grid-cols-2 */
+      align-items: center;
+    }
+  }
+  
+  .image {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem; /* Equivalent to rounded-xl */
+    width: 400px;
+    height: 400px;
+  }
+  

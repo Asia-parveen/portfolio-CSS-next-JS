@@ -1,0 +1,169 @@
+/* hero section code here */
+.heroContainer {
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .heroInnerContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .heroInnerContainer {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  .heroImageContainer {
+    grid-column: span 2;
+    display: none;
+  }
+  
+  @media (min-width: 640px) {
+    .heroImageContainer {
+      display: block;
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+    }
+  
+    .heroImage {
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .heroImageContainer {
+      width: 380px;
+      height: 380px;
+    }
+  }
+  
+  .heroTextContainer {
+    grid-column: span 3;
+  }
+  
+  .heroGreeting {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fbbf24; /* Equivalent to Tailwind's text-yellow-500 */
+    font-weight: 600;
+  }
+  
+  @media (min-width: 1280px) {
+    .heroGreeting {
+      font-size: 26px;
+    }
+  }
+  
+  .heroName {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .heroNameHighlight {
+    color: #AF3cFF;
+  }
+  
+  @media (min-width: 1024px) {
+    .heroName {
+      font-size: 45px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .heroName {
+      font-size: 60px;
+    }
+  }
+  
+  .heroRole {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  @media (min-width: 1024px) {
+    .heroRole {
+      font-size: 28px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .heroRole {
+      font-size: 35px;
+    }
+  }
+  
+  .heroDescription {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 1.5rem;
+  }
+  
+  @media (min-width: 1280px) {
+    .heroDescription {
+      font-size: 18px;
+    }
+  }
+  .heroButton {
+    margin-top: 2rem;
+    position: relative;
+    height: 3rem;
+    width: 12rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    background-color: #e487ff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s;
+  }
+  
+  .heroButton:hover {
+    color: #af3cff !important;
+    z-index: 20;
+  /* This color change should work on hover */
+  }
+  
+  .heroButtonBg {
+    position: absolute;
+    inset: 0;
+    width: 0.75rem;
+    background-color: white;
+    transition: width 0.3s;
+  }
+   
+  .heroButton:hover .heroButtonBg .text {
+    width: 100%;
+    color: #af3cff !important;
+    z-index: 20;
+  }
+ 
+ 
+ 
+  
+    
+   
+   
+  
+
+   
+   
+    
+
+  

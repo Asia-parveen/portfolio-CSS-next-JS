@@ -1,0 +1,116 @@
+/* skill section css code here */
+/* skills.tsx ka css code */
+/* Skill.module.css */
+
+/* Container for the entire section */
+.container {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    box-sizing:border-box;
+  }
+  
+  .gridWrapper {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (min-width: 1024px) {
+    .gridWrapper {
+      grid-template-columns: repeat(3, 1fr);
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .gridWrapper {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* AOS fade-in and flip effects */
+  .cardWrapper {
+    animation: flipIn 1s ease-out;
+  }
+  
+  @keyframes flipIn {
+    from {
+      transform: rotateY(90deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+  
+  .cardWrapperDelay200 {
+    animation-delay: 200ms;
+  }
+  
+  .cardWrapperDelay400 {
+    animation-delay: 400ms;
+  }
+  
+  .cardWrapperDelay600 {
+    animation-delay: 600ms;
+  }
+  
+  .cardWrapperDelay800 {
+    animation-delay: 800ms;
+  }
+  
+  .cardWrapperDelay1000 {
+    animation-delay: 1000ms;
+  }
+  
+  .cardWrapperDelay1200 {
+    animation-delay: 1200ms;
+  }
+  
+  .cardWrapperDelay1400 {
+    animation-delay: 1400ms;
+  }
+/* skillsCard css code here   */
+/* SkillCard.module.css */
+
+/* Style for the card container */
+.card {
+    padding: 1.5rem;
+    background-color: #1a202c; /* equivalent to bg-gray-900 */
+    text-align: center;
+    border-radius: 0.75rem; /* equivalent to rounded-lg */
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #fbbf24; /* equivalent to hover:bg-yellow-600 */
+    transform: scale(1.05); /* slightly scales the card on hover */
+  }
+  
+  /* Image styling */
+  .cardImage {
+    margin: 0 auto;
+    object-fit: cover;
+  }
+  
+  /* Title styling */
+  .cardTitle {
+    font-size: 18px;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Percent styling */
+  .cardPercent {
+    background-color: #000000;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    opacity: 0.4;
+  }
+  

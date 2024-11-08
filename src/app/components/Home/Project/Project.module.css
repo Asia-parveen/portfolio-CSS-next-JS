@@ -1,0 +1,58 @@
+/* project section css here */
+/* Project.module.css */
+
+/* Container for the project section */
+.projectSection {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Grid container for project cards */
+  .projectGrid {
+    width: 80%;
+    padding-top: 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    border-radius: 0.75rem;
+  }
+  
+  @media (min-width: 768px) {
+    .projectGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .projectGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Card styling for project images */
+  .projectCard {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 0.75rem;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }
+  
+  .projectCard:hover {
+    transform: translateY(1.5rem);
+  }
+  
+  /* For larger screens */
+  .projectCardLarge {
+    height: 300px;
+  }
+  
+  /* Image styling */
+  .projectImage {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  

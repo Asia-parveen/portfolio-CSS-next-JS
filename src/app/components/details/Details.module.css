@@ -1,0 +1,244 @@
+.container {
+  padding: 50px 0;
+}
+
+.header {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.headerTitle {
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: 'serif';
+}
+
+.headerSubtitle {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  font-family: 'serif';
+  letter-spacing: 0.1em;
+  font-size: 16px;
+}
+
+.section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+  color: #AF3CFF;
+}
+
+.sectionTitle2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: #AF3CFF;
+}
+
+.sectionText {
+  font-size: 18px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.highlight {
+  color: #AF3CFF;
+  font-weight: 600;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.projectTitle {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px 0;
+  text-align: center;
+  color: yellow;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.projectImage {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.projectLink {
+  display: flex;
+  justify-content: center;
+}
+
+/* Media Queries for Responsive Grid */
+
+@media (min-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets and small screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+  }
+}
+
+
+
+/* details.tsx css code here
+
+.container {
+    padding: 50px 0;
+   
+  }
+  
+  .header {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  
+  /* .headerTitle {
+   
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'serif';
+}*/
+/*   
+  .headerSubtitle {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    
+    font-family: 'serif';
+    letter-spacing: 0.1em;
+    font-size: 16px;
+  }
+  
+  .section {
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+  } */
+  /* .section1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  
+  .sectionTitle {
+   
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    color: #AF3CFF;
+  }
+  .sectionTitle2 {
+   
+   font-size: 24px;
+   font-weight: bold;
+   padding: 10px 0;
+   color: #AF3CFF;
+ } */
+
+  
+  /* .sectionText {
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: justify;
+   
+    margin: 0 auto;
+   
+ 
+    width: 45%;
+  } */
+  
+  /* .highlight {
+    color: #AF3CFF;
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  
+  .projectTitle {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 0;
+   
+    text-align: center;
+    color: yellow;
+  
+  }
+  .projectTitle h1{
+    padding: 70px;
+   
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .gridContainer.mdGrid {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  
+  /* .gridContainer.lgGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .projectImage {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .projectLink {
+    display: flex;
+    justify-content: center;
+  }
+    */

@@ -1,0 +1,150 @@
+/* Nav.module.css */
+.container {
+  height: 13vh;
+  background-color: #181a1d;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.logoHighlight {
+  color: #e487ff;
+}
+
+.navLinks {
+  display: none;
+  color: white;
+
+}
+
+.navLinksLarge {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease;
+  
+}
+.navLink:hover{
+  border-bottom: 2px solid #e487ff;
+}
+/* LinkedIn Button CSS */
+.linkedinButton {
+  position: relative;
+  height: 3rem;
+  width: 12rem;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: #e487ff;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.linkedinButton::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 3px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.linkedinButton:hover::before {
+  width: 100%;
+}
+
+.linkedinButton:hover.linkedinButtonText {
+  color: #e487ff;
+  
+}
+.linkedinButtonText:hover{
+ color: #af3cff !important;
+  z-index: 20;
+  /* transition: color 0.3s ease 0.3s;  */
+}
+
+
+
+
+
+.burgerMenu {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .navLinksLarge {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
+}
+/* MobileNav.module.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: 1000;
+  width: 100%;
+}
+
+.overlayOpen {
+  transform: translateX(0);
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+
+
