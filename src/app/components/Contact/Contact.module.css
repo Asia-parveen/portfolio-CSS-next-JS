@@ -86,5 +86,95 @@
     border-radius: 4px;
     cursor: pointer;
   }
+  /* ****************************** */
+  .information{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  @media (min-width: 768px) {
+    .information{
+   padding: 10px;
+  } 
+}
+
+.infoText {
+  font-size: 17px;
+  color: white;
+  opacity: 0.75;
+}
+
+.infoHeading {
+  margin-top: 0.6rem;
+  padding: 2px;
+  color: white;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+/* .formGrid {
+  text-align: center;
+ 
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+} */
+
+@media (min-width: 768px) {
+  .infoHeading {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .infoHeading {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .infoHeading {
+    font-size: 33px;
+  }
+}
+
+.brandHighlight {
+  color: #f59e0b; /* yellow-600 */
+}
+
+.contactEmail {
+  
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  color: yellow ;
+  font-weight: 600;
+}
+
+
+
+@media (max-width: 640px) {
+  .brandHighlight{
+    font-size: 20px;
+  }
+  .contactEmail{
+  
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: #fbbf24; 
+    font-weight: 400;
+    padding: 0 10px;
+  }
+  
+} 
+
+
+
+
+
+
+
+
   
   

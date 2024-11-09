@@ -12,6 +12,13 @@ const Contact = () => {
       <div className={styles.formWrapper}>
         <p className={styles.contactTitle}>Contact me</p>
         <ContactForm />
+        <div className={styles.information}>
+          <p className={styles.infoText}>Get In Touch</p>
+          <h1 className={styles.infoHeading}>
+            Elevate your <span className={styles.brandHighlight}>Brand</span> to excellence!
+          </h1>
+          <h1 className={styles.contactEmail}>beautyhealthytips177@gmail.com</h1>
+        </div>
       </div>
     </div>
   );
